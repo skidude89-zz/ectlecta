@@ -3,6 +3,12 @@
 .withripple{
 	position:relative}
 
+.carousel-img{
+	width: 792px;
+	height: 446px;
+	overflow: hidden;
+}
+
 .ripple-container{
 	position:absolute;
 	top:0;
