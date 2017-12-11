@@ -13949,7 +13949,9 @@ body.lb-disable-scrolling{
 
 .ms-slidebar .ms-slidebar-menu>li>a.link{
 	background-color:#fff;
-	color:#616161}
+	color:#ED5E55;
+	font-weight: 700;
+}
 
 .ms-slidebar .ms-slidebar-menu>li>a.link:after{
 	content:"\f2fb"}
