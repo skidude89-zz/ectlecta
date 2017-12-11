@@ -9,6 +9,29 @@
 	overflow: hidden;
 }
 
+.recipe-step{
+
+	padding: 1rem 2rem 1rem 2rem;
+	text-align: left;
+
+}
+
+.recipe-header{
+
+	justify-content: center;
+	text-align: left
+
+}
+
+.add-weight{
+	font-weight: 700; 
+	font-size: 3rem;
+}
+
+.tight-margin{
+	margin: 5px 0px 5px 0px;
+}
+
 .ripple-container{
 	position:absolute;
 	top:0;
@@ -3898,7 +3921,7 @@ html{
 	-webkit-font-smoothing:antialiased}
 
 body{
-	color: #757575;
+	color: #595959;
 	background-color: #f5f5f5;
 	font-family: raleway;
 	font-size: 15px;
