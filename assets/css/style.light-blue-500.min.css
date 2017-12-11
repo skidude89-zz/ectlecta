@@ -21,6 +21,18 @@
 	padding: 3rem 0rem 3rem 0rem;
 }
 
+.colorred{
+
+	color: #EB5E55;
+
+}
+
+.colorblue{
+
+	color: #006577;
+
+}
+
 .ripple{
 	position:absolute;
 	width:20px;
