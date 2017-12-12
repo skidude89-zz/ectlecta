@@ -10041,6 +10041,21 @@ a.img-thumbnail:hover,a.img-thumbnail:focus{
 	transition:all ease .5s;
 	-webkit-backface-visibility:hidden}
 
+.ms-test123:before{
+	content:"";
+	position:relative;
+	overflow:hidden;
+	margin-bottom:0
+	left:0;
+	right:0;
+	top:200%;
+	bottom:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+	transition:all ease .5s;
+	-webkit-backface-visibility:hidden}
+
 .ms-thumbnail .ms-thumbnail-caption .ms-thumbnail-caption-content{
 	-webkit-transform: translateY(-100%);
 	transform: translateY(-100%);
