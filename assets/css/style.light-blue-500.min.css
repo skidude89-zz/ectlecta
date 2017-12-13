@@ -3349,7 +3349,8 @@ hr.on-light{
 .no-m{
 	margin-top: 0;
 	margin-right: 0;
-	margin-bottom: 0
+	margin-bottom: 0;
+	margin-left: 0;
 }
 
 .no-mt{
@@ -10041,14 +10042,14 @@ a.img-thumbnail:hover,a.img-thumbnail:focus{
 	transition:all ease .5s;
 	-webkit-backface-visibility:hidden}
 
-.ms-test123:before{
+.ms-thumbnail .ms-test123:before{
 	content:"";
 	position:relative;
 	overflow:hidden;
 	margin-bottom:0
 	left:0;
 	right:0;
-	top:200%;
+	top:0%;
 	bottom:0;
 	width:100%;
 	height:100%;
@@ -10096,7 +10097,7 @@ a.img-thumbnail:hover,a.img-thumbnail:focus{
 
 .ms-thumbnail.ms-thumbnail-horizontal .ms-thumbnail-caption:before{
 	top:0;
-	right:-200%;
+	right:100%;
 	left:auto}
 
 .ms-thumbnail.ms-thumbnail-horizontal .ms-thumbnail-caption .ms-thumbnail-caption-content{
@@ -10105,7 +10106,7 @@ a.img-thumbnail:hover,a.img-thumbnail:focus{
 
 .ms-thumbnail.ms-thumbnail-horizontal:hover .ms-thumbnail-caption,.ms-thumbnail.ms-thumbnail-horizontal:focus .ms-thumbnail-caption{
 	top:0;
-	right:0;
+	right: -200%;
 	left:auto}
 
 .ms-thumbnail.ms-thumbnail-horizontal:hover .ms-thumbnail-caption:before,.ms-thumbnail.ms-thumbnail-horizontal:focus .ms-thumbnail-caption:before{
@@ -11360,7 +11361,12 @@ a.img-thumbnail:hover,a.img-thumbnail:focus{
 	background-position: bottom center;
 	background-repeat: no-repeat
 }
-
+.ms-hero-img-yp{
+	background-image:url(../../recipes/img/yorkshire_pudding/yp-cover.jpg);
+	background-size:cover;
+	background-position:center center
+	z-index: -2;
+}
 
 
 
@@ -11413,10 +11419,10 @@ a.img-thumbnail:hover,a.img-thumbnail:focus{
 	position:relative;
 	z-index:1}
 
-.ms-hero-bg-dark{
+.ms-hero-bg-recipe{
 	position:relative}
 
-.ms-hero-bg-dark:after{
+.ms-hero-bg-recipe:after{
 	display:block;
 	content:"";
 	position:absolute;
@@ -11426,8 +11432,8 @@ a.img-thumbnail:hover,a.img-thumbnail:focus{
 	bottom:0;
 	width:100%;
 	height:100%;
-	background-color:rgba(2,2,2,.85);
-	z-index:0}
+	background-color:rgba(255,255,255,.85);
+	z-index: 0}
 
 .ms-hero-bg-dark .container{
 	position:relative;
