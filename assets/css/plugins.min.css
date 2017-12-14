@@ -17436,7 +17436,7 @@ a.text-dark:focus,a.text-dark:hover{
 	background:#3498db;color:#fff}
 
 .plyr__play-large{
-	display:none;position:absolute;z-index:1;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);padding:10px;background:#3498db;border:4px solid currentColor;border-radius:100%;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.15);box-shadow:0 1px 1px rgba(0,0,0,.15);color:#fff;-webkit-transition:all .3s ease;transition:all .3s ease}
+	display:none;position:absolute;z-index:1;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);padding:10px;background:#006577;border:4px solid currentColor;border-radius:100%;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.15);box-shadow:0 1px 1px rgba(0,0,0,.15);color:#EB5E55;-webkit-transition:all .3s ease;transition:all .3s ease}
 
 .plyr__play-large svg{
 	position:relative;left:2px;width:20px;height:20px;display:block;fill:currentColor}

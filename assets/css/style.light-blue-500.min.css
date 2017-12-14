@@ -3973,6 +3973,22 @@ button{
 	z-index:0;
 	transition:all ease 1s}
 
+
+.material-background-cat{
+	background-color:#006577;
+	display:block;
+	position:absolute;
+	width:100%;
+	height:400px;
+	top:0;
+	left:0;
+	z-index:0;
+	transition:all ease 1s
+}
+
+
+
+
 .material-background-travel{
 	background-image: url(../img/travel1.jpg);
 	background-position: center center;
@@ -4027,8 +4043,10 @@ button{
     height: 100%;
     background-color: rgba(255,255,255,0.64);
     z-index: 0;
+
+
 }
-.material-background-about
+.material-background-about{
 	background-image: url(../img/aboutcover.jpg);
 	background-position: center center;
 	background-size: cover;
